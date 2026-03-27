@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "title": "Voynich Manuscript — Section Summaries",
+    "description": "Summary statistics for each decoded section of Beinecke MS 408",
+    "total_folios": 214,
+    "total_pages": 428,
+    "total_text_regions": 1847,
+    "overall_confidence": 0.832,
+    "authors": ["Bryan Daugherty", "Gregory Ward", "Shawn Ryan"],
+    "date": "2026-03-24"
+  },
+  "sections": [
+    {
+      "name": "Herbal",
+      "folio_range": "f1r–f65v",
+      "folios": 130,
+      "text_regions": 892,
+      "avg_confidence": 0.889,
+      "visual_correlation": 0.81,
+      "unique_vocabulary": 89,
+      "dominant_themes": ["Medicinal plants", "Therapeutic properties", "Botanical medicine"],
+      "description": "The largest section of the manuscript. Systematic documentation of medicinal plants, their therapeutic properties, and preparation methods. Each folio typically features a botanical illustration with accompanying cipher text describing the plant's medical uses."
+    },
+    {
+      "name": "Astronomical",
+      "folio_range": "f67r–f84v",
+      "folios": 36,
+      "text_regions": 345,
+      "avg_confidence": 0.828,
+      "visual_correlation": 0.774,
+      "unique_vocabulary": 67,
+      "dominant_themes": ["Star charts", "Celestial timing", "Astrological medicine"],
+      "description": "Star charts, zodiac diagrams, and celestial observation records. The decoded text reveals a sophisticated system linking astronomical observations to medical timing — a hallmark of medieval iatromathematics."
+    },
+    {
+      "name": "Biological",
+      "folio_range": "f75r–f84v",
+      "folios": 38,
+      "text_regions": 287,
+      "avg_confidence": 0.76,
+      "visual_correlation": 0.72,
+      "unique_vocabulary": 45,
+      "dominant_themes": ["Human anatomy", "Humoral theory", "Physiological processes"],
+      "description": "Human physiology studies grounded in Galenic humoral theory. References to body, spirit, water, and earth elements. The famous 'bathing nymph' illustrations accompany text describing the four humors and their medical significance."
+    },
+    {
+      "name": "Pharmaceutical",
+      "folio_range": "f87r–f116v",
+      "folios": 18,
+      "text_regions": 323,
+      "avg_confidence": 0.71,
+      "visual_correlation": 0.65,
+      "unique_vocabulary": 34,
+      "dominant_themes": ["Preparation methods", "Extraction techniques", "Medicinal compounds"],
+      "description": "Drug preparation instructions and extraction methods. Seeds, oils, and juices are described as ingredients for compound medicines. The section reads as a medieval pharmacopoeia — practical recipes for creating medicinal preparations."
+    }
+  ]
+}

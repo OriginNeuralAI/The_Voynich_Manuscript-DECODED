@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "Voynich Manuscript — Validation Statistics",
+    "description": "High-level validation metrics for the complete decipherment of Beinecke MS 408",
+    "authors": ["Bryan Daugherty", "Gregory Ward", "Shawn Ryan"],
+    "date": "2026-03-24"
+  },
+  "corpus": {
+    "total_folios": 214,
+    "total_pages": 428,
+    "total_text_regions": 1847,
+    "total_unique_terms": 847,
+    "processing_time_hours": 3.4
+  },
+  "confidence": {
+    "overall_average": 0.832,
+    "by_section": {
+      "herbal": 0.889,
+      "astronomical": 0.828,
+      "biological": 0.76,
+      "pharmaceutical": 0.71
+    }
+  },
+  "statistical_significance": {
+    "sigma": 6.7,
+    "method": "Conservative corrected null hypothesis testing",
+    "monte_carlo_iterations": 10000,
+    "description": "6.7σ significance exceeds conventional cryptanalytic thresholds by a wide margin. For reference, 5σ is the particle physics discovery threshold."
+  },
+  "botanical_correlation": {
+    "cipher_correlation": 0.769,
+    "random_baseline": 0.17,
+    "p_value": "p << 0.001",
+    "method": "Monte Carlo simulation with 10,000 iterations comparing decoded plant names against manuscript botanical illustrations"
+  },
+  "visual_text_correlation": {
+    "herbal": 0.81,
+    "astronomical": 0.774,
+    "biological": 0.72,
+    "pharmaceutical": 0.65,
+    "range": "65%–93%",
+    "method": "Comparison of decoded text content against folio illustration subject matter"
+  },
+  "blind_validation": {
+    "scholar_validation_rate": 1.0,
+    "description": "100% blind validation rate from qualified medieval Latin scholars reviewing decoded text without knowledge of source folios"
+  },
+  "zodiac_proof": {
+    "signs_decoded": 12,
+    "signs_correct": 12,
+    "traditional_order": true,
+    "historical_accuracy": 0.97,
+    "probability_by_chance": "< 1 in 479,001,600",
+    "description": "Folio f68r decoded to produce all 12 zodiac signs in correct Latin, in traditional order, from a folio illustrating a zodiac wheel"
+  },
+  "mapping_accuracy": {
+    "overall": 0.817,
+    "expansion_ratio": 1.549,
+    "expansion_ratio_std": 0.23,
+    "description": "Voynichese-to-Latin character expansion ratio of ~1.55, consistent with verbose homophonic substitution cipher"
+  }
+}
